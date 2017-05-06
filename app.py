@@ -2,12 +2,8 @@
 import os
 
 from flask import Flask, render_template
-from two1.wallet import Wallet
-from two1.bitserv.flask import Payment
 
 app = Flask(__name__)
-wallet = Wallet()
-payment = Payment(app, wallet)
 
 @app.route("/")
 def index():
