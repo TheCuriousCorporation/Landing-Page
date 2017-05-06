@@ -7,4 +7,3 @@ itsdangerous==0.24
 appdirs==1.4.3
 packaging==16.8
 six==1.10.0
-two1==3.10.6
